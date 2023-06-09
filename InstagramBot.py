@@ -7,7 +7,7 @@ password = '***************' #enter your password
 profile = InstaPy(username= username,
                   password= password,
                   headless_browser= False,
-                  browser_executable_path= r"C:\Program Files\Mozilla Firefox\firefox.exe")
+                  browser_executable_path= r"C:\Program Files\Mozilla Firefox\firefox.exe") #you can use chrome too
 
 with smart_run(profile):
     profile.set_relationship_bounds(enabled=True,
